@@ -22,7 +22,9 @@ export const Portfolio = () => {
         </Row>
         <Row className="justify-content-center">
           {dataportfolio.map((data, i) => (
-            <Col key={i} xl={5} lg={6} md={10} className="mb-5 d-flex justify-content-center">
+         <Col key={i} xl={12} lg={12} md={12} sm={12} xs={12} className="mb-5 d-flex justify-content-center">
+
+
               <div className="portfolio-item">
                 <div className="portfolio-img-container">
                   <img src={data.img} alt={data.description} className="portfolio-img" />

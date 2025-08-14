@@ -1,10 +1,11 @@
 const logotext = "ZIA";
-import ACN from "../src/assets/images/ACN.png";
+import ACN from "../src/assets/images/ACN1.png";
 import IndigisafeWeb from "../src/assets/images/indigisafeWeb.png";
 import Indigisafe from "../src/assets/images/indigisa.png";
 import ShoalLakemob from "../src/assets/images/shoallae.png";
 import ACNWeb from "../src/assets/images/ACNweb.png";
 import TravelBest from "../src/assets/images/travelbest.png";
+import Taskforge from "../src/assets/images/Taskforge.png";
 const meta = {
   title: "Zia Imdad",
   description:
@@ -132,6 +133,12 @@ const dataportfolio = [
     description:
       "Developed the Travel Best Bets website, a comprehensive travel booking platform featuring package deals, hotel reservations, and activity bookings. Implemented responsive design and seamless payment processing.",
     link: "https://www.travelbestbets.com/",
+  },
+  {
+    img: Taskforge,
+    description:
+      "TaskForge is a comprehensive productivity web application designed for efficient attendance management and daily task tracking. The platform features real-time monitoring, detailed reporting, and intuitive dashboards to enhance team productivity and time management.",
+    link: "http://timetrackiq.com",
   },
 ];
 
